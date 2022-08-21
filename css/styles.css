@@ -115,8 +115,6 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .header-nav {
@@ -162,6 +160,8 @@ img {
 
 .header-link,
 .header-auth-link {
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
