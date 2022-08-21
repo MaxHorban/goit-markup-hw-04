@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang=ru>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title lang="en">WebStudio</title>
+
+    <!-- Normolize  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Підключені шрифти -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+    <!-- Секція навігації Header -->
+    <header class="header">
+        <!-- Навігація по сайту -->
+        <div class="container header-container">
+            <nav class="header-nav">
+                <a class="logo-link link" href="./index.html" lang="en">
+                    <span class="logo-style">Web</span>Studio
+                </a>
+                <ul class="list header-nav-list">
+                    <li class="header-item sectiontem">
+                        <a class="link header-link header-link-current" href="./index.html" lang="ru">Студия</a>
+                    </li>
+                    <li class="header-item sectiontem">
+                        <a class="link header-link" href="./portfolio.html" lang="ru">Портфолио</a>
+                    </li>
+                    <li class="header-item sectiontem">
+                        <a class="link header-link" href="#" lang="ru">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Е-меіл і телефон -->
+            <ul class="list header-auth">
+                <li class="auth-item">
+                    <a class="link header-auth-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="auth-item">
+                    <a class="link header-auth-link header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!-- Секція головного контенту -->
+    <main class="maim">
+        <!-- Секція заголовку і кнопки -->
+        <section class="section hero-section">
+            <div class="container">
+                <h1 class="hero-title" lang="ru">Эффективные решения для <br>вашего бизнеса</h1>
+                <button class="btn btn-mode-dark" type="button">Заказать услугу</button>
+
+            </div>
+        </section>
+        <!-- Особливості -->
+        <section class="section feature">
+            <div class="container">
+                <h2 class="visually-hidden">Особенности</h2>
+                <ul class="list feature-list">
+                    <li class="feature-item">
+                        <h3 class="title feature-title" lang="ru">Внимание к деталям</h3>
+                        <p class="text feature-uppertitle" lang="ru">Идейные соображения, а также начало повседневной
+                            работы по
+                            формированию
+                            позиции.</p>
+                    </li>
+                    <li class="feature-item">
+                        <h3 class="title feature-title" lang="ru">Пунктуальность</h3>
+                        <p class="text feature-uppertitle" lang="ru">Задача организации, в особенности же рамки и место
+                            обучения кадров
+                            влечет
+                            за собой.</p>
+                    </li>
+                    <li class="feature-item">
+                        <h3 class="title feature-title" lang="ru">Планирование</h3>
+                        <p class="text feature-uppertitle" lang="ru">Равным образом консультация с широким активом в
+                            значительной степени
+                            обуславливает.</p>
+                    </li>
+                    <li class="feature-item">
+                        <h3 class="title feature-title" lang="ru">Современные технологии</h3>
+                        <p class="text feature-uppertitle" lang="ru">Значимость этих проблем настолько очевидна, что
+                            реализация плановых
+                            заданий.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- О нас фото -->
+        <section class="section about">
+            <div class="container">
+                <h2 class="title about-title" lang="ru">Чем мы занимаемся</h2>
+                <ul class="list about-list">
+                    <li class="about-item">
+                        <img class="about-img" src="./images/about/box-planshet-z-klaviaturoy.jpg"
+                            alt="Руки печатают на портативной клавиатуре програмный код на планшете" width="370"
+                            height="294">
+                    </li>
+                    <li class="about-item">
+                        <img class="about-img" src="./images/about/box-telephon.jpg"
+                            alt="Телефон, ноутбук, проекторное дублировние картинки на ноутбуке" width="370"
+                            height="294">
+                    </li>
+                    <li class="about-item">
+                        <img class="about-img" src="./images/about/box-planshet-z-palitroi.jpg"
+                            alt="Планшет з палитрой цветов" width="370" height="294">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- О сотрудниках з фото -->
+        <section class="section team">
+            <div class="container">
+                <h2 class="title team-title" lang="ru">Наша команда</h2>
+                <ul class="list team-list">
+                    <li class="team-item">
+                        <img class="team-img" src="./images/team/img-igor.jpg"
+                            alt="Мужичина с бородой в очках в коричневой рубашке" width="270" height="260">
+                        <div class="card">
+                            <h3 class="title team-uppertitle" lang="ru">Игорь Демьяненко</h3>
+                            <p class="text team-text" lang="en">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="team-item">
+
+                        <img class="team-img" src="./images/team/img-olha.jpg" alt="Блондинка в очках и черном пиджаке"
+                            width="270" height="260">
+                        <div class="card">
+                            <h3 class="title team-uppertitle" lang="ru">Ольга Репина</h3>
+                            <p class="text team-text" lang="en">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="team-item">
+                        <img class="team-img" src="./images/team/img-nikita.jpg"
+                            alt="Парень с бородой в белой рубашке улибается" width="270" height="260">
+                        <div class="card">
+                            <h3 class="title team-uppertitle" lang="ru">Николай Тарасов</h3>
+                            <p class="text team-text" lang="en">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="team-item">
+                        <img class="team-img" src="./images/team/img-misha.jpg"
+                            alt="Парень в очках и борой в черной футболке" width="270" height="260">
+                        <div class="card">
+                            <h3 class="title team-uppertitle" lang="ru">Михаил Ермаков</h3>
+                            <p class="text team-text" lang="en">UI Designer</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- Секція підвалу, прав, контактної інформаціх -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <!-- Лого з посиланням -->
+            <a class="link footer-logo" href="./index.html" lang="en"><span class="logo-style">Web</span>Studio</a>
+            <address class="address">
+                <ul class="list footer-list">
+                    <!-- Адреса -->
+                    <li class="address-item"><a class="link address-link" href="https://goo.gl/maps/Kzo8s4aSdxviGHbG7"
+                            target="_blank" rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                    </li>
+                    <!-- Е-меіл і телефон -->
+                    <li class="address-item">
+                        <a class="link footer-mail" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li class="address-item">
+                        <a class="link footer-phone" href="tel:+380991111111">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+</body>
+
+</html>
